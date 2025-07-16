@@ -61,3 +61,38 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn jupyte
 ```bash
 jupyter notebook
 ```
+
+## 5.Technical Highlights
+- Encoding with `OneHotEncoder` and `OrdinalEncoder`
+- Feature scaling using `StandardScaler`
+- Class balancing using `RandomOverSampler` and `SMOTE` from `imbalanced-learn`
+- Training and evaluation of the following classification models:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - K-Nearest Neighbors
+  - Support Vector Machine
+  - Naive Bayes
+  - Gradient Boosting
+- Validation techniques:
+  - 70/30 train-test split
+  - k-fold cross-validation (k=5, 7, and 10)
+- Evaluation metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - ROC AUC
+- Visualization tools:
+  - Confusion matrices
+  - Classification reports
+  - Correlation heatmaps and feature distributions
+- Overfitting diagnosis by comparing training vs. validation scores
+
+## 7. Purpose
+
+This project was developed for academic purposes to demonstrate the application of machine learning to credit risk analysis. It highlights the importance of clean data pipelines, interpretable modeling, and rigorous evaluation when building decision support systems.
+
+## 8. License
+
+This repository is intended for academic use only. Redistribution or commercial use is not permitted without explicit permission.
