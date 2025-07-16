@@ -62,7 +62,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn jupyte
 jupyter notebook
 ```
 
-## 5.Technical Highlights
+## Technical Highlights
 - Encoding with `OneHotEncoder` and `OrdinalEncoder`
 - Feature scaling using `StandardScaler`
 - Class balancing using `RandomOverSampler` and `SMOTE` from `imbalanced-learn`
@@ -89,10 +89,10 @@ jupyter notebook
   - Correlation heatmaps and feature distributions
 - Overfitting diagnosis by comparing training vs. validation scores
 
-## 7. Purpose
+##  Purpose
 
 This project was developed for academic purposes to demonstrate the application of machine learning to credit risk analysis. It highlights the importance of clean data pipelines, interpretable modeling, and rigorous evaluation when building decision support systems.
 
-## 8. License
+##  License
 
 This repository is intended for academic use only. Redistribution or commercial use is not permitted without explicit permission.
